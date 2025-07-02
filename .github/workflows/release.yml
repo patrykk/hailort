@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        debian_version: [testng]
+        debian_version: [testing]
     runs-on: ${{ matrix.os }}
 
     steps:
